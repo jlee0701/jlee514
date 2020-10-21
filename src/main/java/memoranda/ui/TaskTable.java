@@ -178,18 +178,18 @@ public class TaskTable extends JTable {
         for (int i = 0; i < 7; i++) {
             TableColumn column = getColumnModel().getColumn(i);
             if (i == 0) {
-                column.setPreferredWidth(7);
+                column.setPreferredWidth(8);
             } 
             else if (i == 1) {
-                column.setPreferredWidth(32567);
+                column.setPreferredWidth(32767);
             }
 	    else if( i == 6 ){
-		    column.setPreferredWidth(110);
-		    column.setMinWidth(110);
+		    column.setPreferredWidth(100);
+		    column.setMinWidth(100);
 	    }
             else {
-                column.setMinWidth(57); // 65);
-                column.setPreferredWidth(57); //65);
+                column.setMinWidth(67); // 65);
+                column.setPreferredWidth(67); //65);
             }
         }
     }
