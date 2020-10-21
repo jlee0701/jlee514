@@ -1,5 +1,5 @@
 ### Quality Policy
-> Describe your Quality Policy in detail for this Sprint (remember what I ask you to do when I talk about the "In your Project" part in the lectures and what is mentioned after each assignment (in due course you will need to fill out all of them, check which ones are needed for each Deliverable). You should keep adding things to this file and adjusting your policy as you go.
+> Our teams workflow will follow closely with the reccomended workflow in the githubhousekeeping.pdf. We will make branches for user stories, make sure to have meaningful commit messages including the user story number. We will push often to my remote repository and make sure to also commit often to demonstrate that we are working efficiently and consistently. Whenever each one of us finish a user story, we will merge the current dev into the user story branch. From there we will create appropriate pull requests to dev. We want to make sure that we are only merging fast forwards into the master branch and only once approved by team members. Overall, we are to commit often and meaningfully making sure to avoid cauing conflicting errors and only merging when approved to.
 
 **GitHub Workflow** (due start Sprint 1)
   > Your Workflow
