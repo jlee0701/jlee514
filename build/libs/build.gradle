@@ -2,12 +2,6 @@ apply plugin: 'application'
 
 mainClassName = 'main.java.memoranda.Start'
 
-//compileJava.options.encoding = 'UTF-8'
-
-repositories {
-    mavenCentral()
-}
-
 dependencies {
     compile files('jlee514-master.jar')
 }
@@ -30,6 +24,7 @@ task fatJar(type: Jar) {
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
     with jar
 }
+
 
 
 
